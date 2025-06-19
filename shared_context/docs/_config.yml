@@ -1,3 +1,25 @@
-theme: jekyll-theme-slate
-title: Foundation Intelligence Portal
-description: AI-Powered Business Intelligence System
+title: Foundation Business Intelligence System
+description: AI-powered business intelligence system with specialized agents
+baseurl: "/Foundation"
+url: "https://mattrob333.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  agents:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - .gitkeep
+  - README.md
