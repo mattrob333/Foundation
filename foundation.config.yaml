@@ -1,0 +1,61 @@
+# foundation.config.yaml
+---
+client:
+  name: "[CLIENT_NAME]"
+  industry: "[INDUSTRY]"
+  size: "[EMPLOYEE_COUNT]"
+  website: "[WEBSITE_URL]"
+
+agents:
+  atlas:
+    version: "1.0"
+    focus_areas:
+      - market_expansion
+      - competitive_intelligence
+      - strategic_partnerships
+  
+  navigator:
+    version: "1.0"
+    kpi_priorities:
+      - revenue_growth
+      - operational_efficiency
+      - customer_satisfaction
+  
+  maestro:
+    version: "1.0"
+    tech_priorities:
+      - system_integration
+      - process_automation
+      - ai_implementation
+  
+  catalyst:
+    version: "1.0"
+    change_priorities:
+      - digital_adoption
+      - cultural_transformation
+      - skill_development
+
+data_sources:
+  public:
+    - crunchbase
+    - linkedin
+    - builtwith
+    - news_rss
+    - glassdoor
+  
+  internal:
+    - erp_system
+    - crm_data
+    - financial_reports
+    - employee_surveys
+
+update_schedule:
+  daily:
+    - market_news
+    - competitor_updates
+  weekly:
+    - performance_metrics
+    - sentiment_analysis
+  monthly:
+    - strategic_review
+    - automation_opportunities
